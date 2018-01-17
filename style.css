@@ -1,0 +1,19 @@
+:root {
+      --hue-rotate: 0deg;
+    }
+
+body {
+	background-color: #3C3C3C;
+	color: white;
+	font-family: 'helvetica neue', sans-serif;
+	text-align: center;
+}
+
+.controls {
+	margin-bottom: 50px;
+}
+
+img {
+	box-shadow: 0 0 100px 1px white;
+	filter: hue-rotate(var(--hue-rotate));
+}
